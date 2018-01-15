@@ -1,8 +1,6 @@
 <h3> Semana 1 </h3>
 <h1> Iniciando con HTML </h1>
 
-***
-
 <h2>4. Primeros Pasos</h2>
 
 HTML (HyperText Markup Language) es el primer lenguaje que una persona debe conocer si desea comenzar a realizar páginas web, no es un lenguaje de programación, sino un lenguaje descriptivo, una serie de etiquetas que el navegador interpretará de una u otra forma para mostrar distintos contenidos por pantalla.
@@ -13,23 +11,71 @@ HTML (HyperText Markup Language) es el primer lenguaje que una persona debe cono
 
 ```html
 <!DOCTYPE html>
-<html>
-    <!--cabecera-->
+<html lang="es">
     <head>
-        <title>Título de página</title>
-        <meta charset="utf-8">
+        <-- Título de la página web -->
+        <title>Hackspace</title>
+
+        <!-- Meta se utiliza para añadir información sobre la página -->
+        <meta charset="utf-8"/>
+        <!-- Descripcion de la pagina -->
+        <meta name="description" content="Pagina de HTML5"/>
+        <!-- Palabras clave -->
+        <meta name="keywords" content="htm5, css3, Javascript"/>
+        <!-- con esto refrescamos la pagina cada 200seg -->
+        <meta http-equiv="Refresh" content="200; URL=http://www.google.com.pe">
+
+        <!-- La etiqueta <link> define un vínculo entre un documento y un recurso externo. -->
+        <!-- rel especifica la relación entre el documento actual y el documento vinculado -->
+        <link rel="stylesheet" type="text/css" href="theme.css">
+
     </head>
 
-    <!--cuerpo-->
     <body>
-        <h1>Esto es una cabecera</h1>
-        <p>Esto es un párrafo</p>
+
+        <h1 title="esto se muestra cuando pasamos encima el raton">Esto es h1</h1>
+        <h2>Esto es h2</h2>
+        <h3>Esto es h3</h3>
+        <p> Esto es un parrafo </p>
+        <a href="https://www.google.com">Esto es un link</a>
+        <!-- este es un salto de linea -->
+        <br>
+        <mark> Esto esta marcado</mark>
+        <br>
+        <em> Enfasis</em>
+        <br>
+        <strong> Texto importante </strong>
+        <br>
+        <small> Presentar textos legales</small>
+        <br>
+        <cite> Para referenciar o hacer citas a libros</cite>
+        <p>Mi color favorito es:  <del>azul</del> y rojo.</p>
+        <!-- Esto es una linea divisoria -->
+        <hr>
+        <p>Mi color  <ins>favorito es:</ins> rojo.</p>
+        <p>Esto es <sub>subscripted</sub> text.</p>
+        <p>Esto es <sup>superscripted</sup> text.</p>
+        <br>
+        <!-- El texto dentro de un elemento <pre>
+        se muestra en una fuente de anchura fija (normalmente Courier) y
+        conserva espacios y saltos de línea: -->
+        <pre>
+            Acuérdate del día, 
+            acuérdate del mes, 
+            acuérdate del beso 
+            que nos dimos la primera vez.
+        </pre>
+        <address>
+            Da informacion de contacto va dentro de footer
+        </address>
+        <br>
+         Hoy es : <time datetime="2017/12/20"> 20/12/2017 </time>
     </body>
 </html>
 ```
 - Ábrelo con el navegador y visualiza los resultados. 
 
- <p align="center"> <img src="img\html.png"></p>
+<p align="center"> <img src="img\html.png"></p>
 
 <h3>Elementos</h3>
 
@@ -39,6 +85,10 @@ HTML (HyperText Markup Language) es el primer lenguaje que una persona debe cono
 - **footer** : Se utiliza para indicar el pié de la página o de una sección.
 - **aside** : El elemento aside representa una nota, un consejo, una explicación.
 - **article** : Representa una entrada independiente en un blog, revista, periódico etc.
+
+La anterior estructura se vería así:
+
+<p align="center"> <img src="img\estructura.png"></p>
 
 Ejemplo: 
 
@@ -90,6 +140,25 @@ Estos nos permiten cargar otra página en el navegador.
 ```html
 <a href="pagina2.html"><img src="../foto1.jpg" alt="Paisaje"> </a>
 ```
+
+<h4> Ejemplo </h4>
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Hackspace</title>
+    </head>
+
+    <body>
+        <img src="http://hanshavin.github.io/HackSpace-Developers/img/logo.png">
+        <a href="https://github.com/ISABELUNA16/HackSpace-IntroductionFrontend/wiki">Bienvenido al CoreUpgrade 2018</a>
+    </body>
+</html>
+```
+
+<p align="center"> <img src="img\links.png"></p>
+
 <h3>4.3 Tablas</h3>
 
 Para la creación de una tabla intervienen una serie de elementos:
@@ -123,6 +192,11 @@ Para la creación de una tabla intervienen una serie de elementos:
     </body>
 </html>
 ```
+
+La tabla anterior se vería de esta manera:
+
+<p align="center"> <img src="img\tabla.png"></p>
+
 <h3>4.4 Formulario</h3>
 Un formulario permite que el visitante al sitio cargue datos y sean enviados al servidor.
 
@@ -149,6 +223,12 @@ Ejemplo:
     </body>
 </html>
 ```
+
+El anterior ejemplo se vería de esta manera:
+
+<p align="center"> <img src="img\formulario.png"></p>
+
+
 <h3>4.5 Inputs</h3>
 Para utilizar estos nuevos controles hay que definir el tipo en la propiedad type del control input.
 
@@ -215,7 +295,7 @@ Confeccionar una aplicación que permita administrar un diccionario ingles/caste
         else  
             document.getElementById('castellano').value=localStorage.getItem(document.getElementById('ingles').value);
     }
-       
+
 </script>  
   
 </head>
@@ -231,6 +311,12 @@ Confeccionar una aplicación que permita administrar un diccionario ingles/caste
 </body>
 </html>
 ```
+
+Para poder visualizar el anterior ejemplo hemos hecho el uso del Inspector de Google Chrome:
+
+<p align="center"> <img src="img\localStorage.png"></p>
+
+
 <h3>4.7 Geolocation</h3>
 
 La geolocalización es una característica de HTML5 que nos permite acceder a ubicación geográfica del usuario del sitio web con una precisión absoluta en el caso que el dispositivo que utilice tenga GPS.
@@ -275,7 +361,13 @@ La geolocalización es una característica de HTML5 que nos permite acceder a ub
 </body>
 </html>
 ```
-<h3>App File</h3>
+El anterior ejemplo nos pedirá determinar nuestra localización y la mostará en la página:
+
+<p align="center">
+<img src="img/location.png">
+</p>
+
+<h3>4.8 App File</h3>
 
 Otra funcionalidad que tenemos con el HTML5 es el acceso solo de lectura de los archivos que hay en nuestro equipo.
 
