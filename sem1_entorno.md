@@ -26,13 +26,13 @@ Existen gran variedad de editores para trabajar y cada uno tiene sus ventajas e 
 
 Para su instalación inicial, visitaremos la web: https://packagecontrol.io/ . En ella encontraremos un código específico para la versión 2 o 3, que se nos pide copiar en primer lugar.<br><br><br>
 
-<p align="center"> <img src="img\packagecontrol.png"></p>
+<p align="center"> <img src="img/packagecontrol.png"></p>
 
 Una vez copiado, abrimos Sublime Text 3, y elegimos en el menú *View > Show Console*
 
 Se abrirá en la zona inferior una ventana de consola de desarrollo. En ella pegaremos los contenidos copiado anteriormente de la web, pulsando intro para ejecutar el código.
 
-<p align="center"><img src="img\sublime.png"></p>
+<p align="center"><img src="img/sublime.png"></p>
 
 <h4>Paso 3:</h4>
 
