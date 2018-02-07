@@ -18,7 +18,7 @@ Estos son los dos métodos HTTP más utilizados que encontrará:
 
 Considere lo que ocurre cuando visita google.com. Detrás de escena, en realidad está haciendo una solicitud a los servidores de Google, que a su vez le envía una respuesta, presentando su famosa página de inicio de búsqueda de Google.  En la siguiente imagen tenemos un ejemplo de como funciona:
 
-<p align-text="center">
+<p align="center">
     <img src="https://gerardoveliz.files.wordpress.com/2015/07/redes.png">
 </p>
 
@@ -62,13 +62,13 @@ console.log('El servidor web esta corriendo en el puerto 3000...!')
 ```
 En el terminal corremos nuestra aplicación:
 
-<p align-text="center">
+<p align="center">
     <img src="img/server1.png">
 </p>
 
 Luego abrimos en nuestro navegador:
 
-<p align-text="center">
+<p align="center">
     <img src="img/server2.png">
 </p>
 
@@ -122,19 +122,19 @@ node server.js
 Vemos que si hacemos una peticion a cada URL en nuestro navegador nos da diferentes respuestas:
 
 En este caso "__localhost:3000/__" es la ruta raíz
-<p align-text="center">
+<p align="center">
     <img src="img/server3.png">
 </p>
 
 Hacemos una petición a la ruta /coreupgrade:
 
-<p align-text="center">
+<p align="center">
     <img src="img/server4.png">
 </p>
 
 Ahora finalmente vamos a hacer una petición a la ruta /data:
 
-<p align-text="center">
+<p align="center">
     <img src="img/server5.png">
 </p>
 

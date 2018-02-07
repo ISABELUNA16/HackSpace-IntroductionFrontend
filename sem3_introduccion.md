@@ -1,7 +1,7 @@
 <h3> Semana 3 </h3>
 <h1> Node.js </h1>
 
-<p align-text="center">
+<p align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png">
 </p>
 
@@ -49,7 +49,7 @@ Este pequeño curso es sólo una introducción si deseas saber más:
 
 Luego de haber instalado node verificamos en el terminal:
 
-<p align-text="center">
+<p align="center">
 <img src="img/node1.png">
 </p>
 
@@ -73,6 +73,6 @@ Para correr nuestro archivo "server.js" usamos en el terminal:
 node server.js
 ```
 
-<p align-text="center">
+<p align="center">
 <img src="img/node2.png">
 </p>

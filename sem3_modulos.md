@@ -50,7 +50,7 @@ console.log(os_module.cpus());
 
 Nos da como resultado:
 
-<p align-text="center">
+<p align="center">
     <img src="img/node4.png">
 </p>
 
@@ -102,7 +102,7 @@ modulo.goodByeMessage();
 
 Y listo tenemos nuestro primer módulo corriendo!! :D
 
-<p align-text="center">
+<p align="center">
     <img src="img/node3.png">
 </p>
 
@@ -128,13 +128,13 @@ Ahora antes de empezar, vamos a iniciar nuestro proyecto haciendo uso del comand
 
 Este comando nos hará algunas preguntas, si queremos dejar en blanco solo le damos enter:
 
-<p align-text="center">
+<p align="center">
     <img src="img/node7.png">
 </p>
 
 Luego nos creará un archivo llamado _package.json_:
 
-<p align-text="center">
+<p align="center">
     <img src="img/node8.png">
 </p>
 
@@ -149,7 +149,7 @@ npm install lodash
 
 Al instalar lodash añadirá una dependencia llamada lodash, y además cada vez que instalemos un nuevo modulo estos se almacenarán automaticamente en una carpeta llamada __node_modules__:
 
-<p align-text="center">
+<p align="center">
     <img src="img/node5.png">
 </p>
 
@@ -171,7 +171,7 @@ console.log(other);
 console.log(array);
 ```
 
-<p align-text="center">
+<p align="center">
     <img src="img/node6.png">
 </p>
 
@@ -179,7 +179,7 @@ Cuando trabajamos en proyectos con otras personas, la carpeta node_modules puede
 
 Ahora vamos a probar con otro módulo que usaremos luego llamado express:
 
-<p align-text="center">
+<p align="center">
     <img src="img/node9.png">
 </p>
 

@@ -45,7 +45,7 @@ fs.readFile('frase.txt','utf8',function (err, data) {
 
 console.log("I see what you did there");
 ```
-<p align-text="center">
+<p align="center">
     <img src="img/node10.png">
 </p>
 
@@ -79,12 +79,12 @@ fs.writeFile('test.txt', 'Bienvenido al CoreUpgrade 2018', function (err) {
         console.log('Se ha escrito el archivo de manera exitosa!');
 });
 ```
-<p align-text="center">
+<p align="center">
     <img src="img/node11.png">
 </p>
 
 Existen otros métodos para manejar archivos como:
-<p align-text="center">
+<p align="center">
     <img src="img/node12.png">
 </p>
 

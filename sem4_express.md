@@ -109,7 +109,7 @@ app.listen(3000, function() {
 
 Vemos nuestra página! :D
 
-<p align-text="center">
+<p align="center">
     <img src="img/express1.png">
 </p>
 
@@ -167,12 +167,12 @@ app.listen(3000, function() {
 ```
 Ahora enviamos nuestros datos al formulario
 
-<p align-text="center">
+<p align="center">
     <img src="img/express2.png">
 </p>
 Y voilá, tenemos como respuesta un json con nuestros datos:
 
-<p align-text="center">
+<p align="center">
     <img src="img/express3.png">
 </p>
 
@@ -221,13 +221,13 @@ app.listen(3000, function() {
 });
 ```
 
-<p align-text="center">
+<p align="center">
     <img src="img/express6.png">
 </p>
 
 Observamos que hemos enviado el formulario de manera correcta con el método POST!
 
-<p align-text="center">
+<p align="center">
     <img src="img/express7.png">
 </p>
 
